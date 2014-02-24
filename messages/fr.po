@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sweelix - Users\n"
+"POT-Creation-Date: 2014-02-24 19:41+0100\n"
+"PO-Revision-Date: 2014-02-24 19:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: Sweelix <pgaultier@sweelix.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: t:1c,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgctxt "users"
+msgid "Users"
+msgstr "Gestion des utilisateurs"
+
+msgctxt "users"
+msgid "{n} registered user|{n} registered users"
+msgstr "{n} utilisateur enregistré|{n} utilisateurs enregistrés"
+
+#: ../controllers/DefaultController.php:140
+msgctxt "users"
+msgid "User does not exist"
+msgstr "Utilisateur inexistant"
+
+#: ../views/default/_form.php:28
+msgctxt "users"
+msgid "Roles"
+msgstr "Rôles"
+
+#: ../views/default/_form.php:40
+msgctxt "users"
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../views/default/_form.php:41
+msgctxt "users"
+msgid "OK"
+msgstr "Ok"
+
+#: ../views/default/_form.php:48
+msgctxt "users"
+msgid "Info"
+msgstr "Information"
+
+#: ../views/default/_form.php:50
+msgctxt "users"
+msgid "User details were saved"
+msgstr "Les informations de l'utilisateur ont été enregistrées"
+
+#: ../views/default/_form.php:55
+msgctxt "users"
+msgid "Error"
+msgstr "Erreur"
+
+#: ../views/default/_form.php:57
+msgctxt "users"
+msgid "User details were not saved"
+msgstr "Les informations de l'utilisateur n'ont pas été enregistrées"
+
+#: ../views/default/_headerView.php:18
+msgctxt "users"
+msgid "Id"
+msgstr "Id"
+
+#: ../views/default/_headerView.php:21
+msgctxt "users"
+msgid "Name"
+msgstr "Nom"
+
+#: ../views/default/_headerView.php:24
+msgctxt "users"
+msgid "Email"
+msgstr "E-mail"
+
+#: ../views/default/_headerView.php:27
+msgctxt "users"
+msgid "Last login"
+msgstr "Dernière connexion"
+
+#: ../views/default/_headerView.php:30
+msgctxt "users"
+msgid "Action"
+msgstr "Action"
+
+#: ../views/default/_itemView.php:29
+msgctxt "users"
+msgid "Send an email to {email}"
+msgstr "Envoyer un email à {email}"
+
+#: ../views/default/_itemView.php:42 ../views/default/_itemView.php:46
+msgctxt "users"
+msgid "Edit"
+msgstr "Editer"
+
+#: ../views/default/create.php:20 ../views/default/edit.php:20
+#: ../views/default/list.php:20
+msgctxt "users"
+msgid "Users management"
+msgstr "Gestion des utilisateurs"
+
+#: ../views/default/create.php:21
+msgctxt "users"
+msgid "Creating new user"
+msgstr "Création d'un utilisateur"
+
+#: ../views/default/create.php:30 ../views/default/create.php:32
+#: ../views/default/edit.php:30 ../views/default/edit.php:32
+#: ../views/default/list.php:29 ../views/default/list.php:31
+#: ../widgets/ActionMenu.php:63 ../widgets/ActionMenu.php:65
+msgctxt "users"
+msgid "Create new user"
+msgstr "Créer un utilisateur"
+
+#: ../views/default/create.php:41 ../views/default/edit.php:41
+msgctxt "users"
+msgid "Users list"
+msgstr "Liste des utilisateurs"
+
+#: ../views/default/edit.php:21
+msgctxt "users"
+msgid "Editing user ID {id}"
+msgstr "Edition de l'utilisateur ID {id}"
+
+#: ../widgets/ActionMenu.php:56 ../widgets/ActionMenu.php:58
+msgctxt "users"
+msgid "Cancel / Back"
+msgstr "Annuler / Revenir"
