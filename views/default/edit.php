@@ -15,9 +15,9 @@
 use sweelix\yii1\web\helpers\Html;
 ?>
 
-<?php $this->widget('sweeft.widgets.BreadcrumbWidget', array(
+<?php $this->widget('sweelix\yii1\admin\core\widgets\Breadcrumb', array(
 	'elements' => array(
-		Yii::t('users', 'Users management'),
+		Html::link(Yii::t('users', 'Users management'), array('default/')),
 		Yii::t('users', 'Editing user ID {id}', array('{id}' => $author->authorId)),
 	),
 )); ?>

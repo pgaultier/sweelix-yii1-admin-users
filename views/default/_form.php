@@ -37,7 +37,7 @@ use sweelix\yii1\web\helpers\Html;
 
 		<?php echo Html::activeLabel($author, 'authorControlPassword'); ?><br/>
 		<?php echo Html::activePasswordField($author, 'authorControlPassword', array('class' => 'classic')); ?><br/>
-		<?php echo Html::link(Yii::t('users', 'Cancel'), array('user/'), array('class' => 'button danger')); ?>
+		<?php echo Html::link(Yii::t('users', 'Cancel'), array('default/'), array('class' => 'button danger')); ?>
 		<?php echo Html::htmlButton(Yii::t('users', 'OK'), array('type' => 'submit', 'class' => 'success')); ?>
 	</fieldset>
 <?php

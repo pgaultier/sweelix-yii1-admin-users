@@ -12,6 +12,7 @@
  * @category  views
  * @package   sweeft.modules.users.views.user
  */
+use sweelix\yii1\web\helpers\Html;
 ?>
 <tr>
 	<td class="main-id">
@@ -22,7 +23,7 @@
 		<?php echo $data->authorLastname; ?>
 	</td>
 	<td class="email">
-		<?php echo Sweeml::link(
+		<?php echo Html::link(
 				$data->authorEmail,
 				'mailto:'.$data->authorEmail,
 				array('title' => Yii::t('users', 'Send an email to {email}', array('{email}' => $data->authorEmail)) )
@@ -37,7 +38,7 @@
 		?>
 	</td>
 	<td class="action">
-		<?php echo Sweeml::link(
+		<?php echo Html::link(
 			Yii::t('users', 'Edit'),
 			array('edit', 'id' => $data->authorId),
 			array(
