@@ -1,0 +1,4 @@
+.module-users {
+	background-image:url(../img/users@2x.png);
+	background-image:url(../img/users.png)\9;// css hack
+}
