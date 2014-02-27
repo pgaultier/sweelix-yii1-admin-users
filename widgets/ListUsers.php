@@ -83,8 +83,8 @@ class ListUsersWidget extends \CWidget {
 	/**
 	 * Render users list
 	 *
-	 * @param array   $data          array of SwaAuthor
-	 * @param integer $currentUserId		the id of the current user
+	 * @param array   $data          array of Author
+	 * @param integer $currentUserId the id of the current user
 	 *
 	 * @return string
 	 * @since  1.11.0
